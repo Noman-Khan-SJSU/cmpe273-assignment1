@@ -1,0 +1,22 @@
+How to use:
+
+To Buy Stocks:
+
+/path/to/your/folder/stockclient "GOOG:45%,YHOO:55%" 75000
+Format: "Stock1:Percentage, Stock2:Percentage" budget
+
+Server Response:
+TradeID
+Stock1 name:share number:stock1 price     Stock2 name:share number:stock2 price
+uninvested amount
+
+
+To Check Portfolio:
+
+/path/to/your/folder/stockserver 1
+Format: tradeId
+
+Server Response:
+Stock1 name:share number:stock1 price     Stock2 name:share number:stock2 price
+uninvested amount
+totalMarketValue
